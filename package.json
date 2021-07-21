@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-hw-couchbase",
+  "version": "0.0.1",
+  "description": "A Cordova plugin for the Health Wizz app.",
+  "cordova": {
+    "id": "cordova-plugin-hw-couchbase",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Couchbase <mobile@couchbase.com>",
+  "license": "Couchbase CE / https://www.couchbase.com/binaries/content/assets/website/legal/ce-license-agreement.pdf"
+}
