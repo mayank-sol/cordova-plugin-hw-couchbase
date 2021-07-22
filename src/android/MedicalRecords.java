@@ -45,6 +45,8 @@ public class MedicalRecords extends CordovaPlugin {
 
                 if (doc != null) {
                     JSONObject jsonObject = new JSONObject(doc.toMap());
+                    jsonObject.put("id", doc.getId());
+                    jsonObject.put("rev", 1);
                     callbackContext.success(jsonObject);
                 } else callbackContext.error("null");
 
